@@ -1,0 +1,121 @@
+/*全局设置*/
+*{
+    text-decoration: none;
+    color: white;
+}
+
+.wrap{
+ min-height: calc(99vh);   
+}
+body{
+    background-color: dimgray;
+}
+
+.logo{
+margin: 0px;
+}
+
+.daoHangTiao{
+    background-color: black;
+    text-align: center;
+}
+
+.muLu{
+    margin: 0px;
+    padding: 10px;
+}
+
+.daoHangTiao .muLu:hover{
+    background-color:midnightblue;
+}
+
+.logo{
+    font-weight: 500px;
+}
+
+.hengFu{
+    text-align: center;
+    text-shadow: 2px 2px 2px black;
+    background-image: url("../image/K.jpg");
+    background-position: center;
+    padding: 110px;
+    margin: 0px;
+}
+
+.zhengWen{
+    text-align: center;
+    padding: 50px;
+}
+
+.zhengWen:hover{
+    background-color: lightsteelblue;
+}
+.yeJiao{
+    text-align: center;
+    background-color: black;
+}
+
+.zhengWen h4,.zhengWen h6{
+    padding: 0px;
+    margin: 0px;
+}
+
+#jsq{
+    background-color: cornflowerblue;
+}
+    
+#pkp{
+    background-color:darkgoldenrod;
+}
+
+/*电脑端*/
+@media (min-width:700px){
+    .daoHangTiao{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    
+    .zhengWenLeiRong{
+        display: flex;
+         flex-direction: row;
+        flex-wrap: wrap;
+    }
+    
+    .zhengWen{
+        margin: 5px;
+    }
+    
+
+    
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
